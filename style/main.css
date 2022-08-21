@@ -1,0 +1,99 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Encode+Sans&family=Source+Code+Pro:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans+Caption&display=swap");
+:root {--cor1: #FF8303}
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'PT Sans Caption', sans-serif;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  background-color: #262626;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  min-height: 100vh;
+  justify-content: space-between;
+}
+
+
+/*Navbar*/
+.navbar {
+  padding: 40px 40px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-brand {
+  font-family: 'Source Code Pro', monospace;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  color: #3c065e;
+}
+
+.navbar-options {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.3em;
+  position: absolute;
+  right: 90px;
+}
+
+.navbar-options-item{
+  padding: 20px;
+  
+}
+.selected{
+  color: gray;
+}
+
+.navbar-options-item a, .navbar-options-item a:visited {
+  color: #3c065e;
+}
+
+.navbar-options-item a:hover, .navbar-options-item a:visited:hover {
+  color: gray;
+}
+
+.text {
+  width: 40%;
+  margin: 40px;
+  position: absolute;
+  top: 100px;
+}
+.button {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  position: absolute;
+  top: 400px;
+  left: 200px;
+}
+
+/*Footer*/
+footer {
+  padding: 2em 10vw;
+  background-color: #212121;
+  color: #ffffff;
+  align-items: center;
+}
