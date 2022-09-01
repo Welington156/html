@@ -1,0 +1,39 @@
+.backgroundImage{
+  background-image: url("../images/logo.png");
+  width: 100vh;
+  height: 100vh;
+  max-width: 70%;
+  margin:0 auto;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size:contain;
+}
+
+.logo{
+  width:20vh;
+  height: 20vh;
+  max-width: 80%;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size:contain;
+}
+
+
+.linha{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.mainindex{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
