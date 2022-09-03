@@ -1,7 +1,82 @@
-.table, th, td {
-  border: 1px solid black;
+:root {--cor1: #FF8303}
+
+main {
+  width: calc(100% - 100px);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
-.tito{
-  width: 40%;
-  border: 1px;
+.tag-title{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: black;
+}
+
+.txtbox {
+  background-color: #262626;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.title-container {
+  align-content: left;
+  font-family:sans-serif;
+  padding: 2px 15px;
+  font-size: 1.7em;
+  color: var(--cor1);
+  text-shadow: 2px 2px 4px #000000;
+  margin-bottom: 15px;
+
+}
+
+#atributos {
+  width: calc(100% - 2px);
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  color: rgb(255, 255, 255);
+}
+
+#atributos td {
+  border: 1px solid rgb(0, 0, 0);
+  padding: 8px;
+}
+
+
+#atributos tr:nth-child(even) {
+  background-color: #244ce4;
+}
+
+#atributos tr{
+  background-color: #0e2476;
+  border-spacing: 0px;
+}
+
+#atributos th {
+  padding: 12px 0 12px 12px;
+  text-align: left;
+  background-color: var(--cor1);
+  color: blue;
+}
+
+.code > *{
+  margin-left: 25px;
+  max-width: calc(100% - 20px)
+}
+
+.description{
+  margin-bottom: 20px;
+  color: black;
+}
+
+
+.tag-title{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: rgb(0, 0, 255);
+}
+.tag-name {
+  background-color: var(--cor1);
+  padding: 15px;
+  margin-bottom: 20px;
 }
