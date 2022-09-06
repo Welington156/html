@@ -13,3 +13,10 @@ body{
   background-size:contain;
 
 }
+
+.imgsobre {
+  border-radius: 80%;
+  width: 30vh;
+  height: 30vh;
+
+}
