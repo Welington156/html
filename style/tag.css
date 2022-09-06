@@ -7,6 +7,7 @@ main {
   flex-direction: column;
   justify-content: space-between;
 }
+
 .tag-title{
   margin-top: 10px;
   margin-bottom: 10px;
@@ -27,7 +28,6 @@ main {
   color: var(--cor1);
   text-shadow: 2px 2px 4px #000000;
   margin-bottom: 15px;
-
 }
 
 #atributos {
@@ -41,7 +41,6 @@ main {
   border: 1px solid rgb(0, 0, 0);
   padding: 8px;
 }
-
 
 #atributos tr:nth-child(even) {
   background-color: #244ce4;
@@ -70,15 +69,16 @@ main {
   color: black;
 }
 
-
 .tag-title{
   margin-top: 10px;
   margin-bottom: 10px;
   color: #FF8303;
-  
 }
+
 .tag-name {
   background-color: var(--cor1);
   padding: 15px;
   margin-bottom: 20px;
 }
+
+
