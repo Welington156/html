@@ -45,11 +45,13 @@ main {
 
 #atributos tr:nth-child(even) {
   background-color: #244ce4;
+    border: 1px solid rgb(0, 0, 0);
 }
 
 #atributos tr{
   background-color: #0e2476;
   border-spacing: 0px;
+    border: 1px solid rgb(0, 0, 0);
 }
 
 #atributos th {
@@ -57,6 +59,7 @@ main {
   text-align: left;
   background-color: var(--cor1);
   color: white;
+    border: 1px solid rgb(0, 0, 0);
 }
 
 .code > *{
